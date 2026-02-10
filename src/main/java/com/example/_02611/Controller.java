@@ -11,4 +11,12 @@ public class Controller {
     protected void onHelloButtonClick() {
         welcomeText.setText("Bienvenido profesor Raul a nuestro ejemplo fx");
     }
+
+    @FXML
+    private Label Integrantes;
+
+    @FXML
+    private void mostrarIntegrantes() {Integrantes.setText("• Alejandro\n" + "• Danilo\n" + "• Juan\n"+ "• Luis");
+    }
+
 }
